@@ -1,42 +1,44 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Witamy w Systemie Obslugi Studenta";
 }
+<br/>
 @section featured {
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1>@ViewBag.Title.</h1>
+                <br/>
                 <h2>@ViewBag.Message</h2>
             </hgroup>
             <p>
-                @Html.ActionLink("Schedule", "Index", "Schedule")
+                @Html.ActionLink("Plan zajęć", "Index", "Schedule")
             </p>
             <p>
-                @Html.ActionLink("Grades", "Index", "GradeIndex")
+                @Html.ActionLink("Oceny", "Index", "GradeIndex")
             </p>
             <p>
-                @Html.ActionLink("Academic Groups", "Index", "Groups")
+                @Html.ActionLink("Grupy dziekańskie", "Index", "Groups")
             </p>
             <p>
-                @Html.ActionLink("Messages", "Index", "Messages")
+                @Html.ActionLink("Wiadomości", "Index", "Messages")
             </p>
             <p>
-                @Html.ActionLink("Payments", "Index", "Payment")
+                @Html.ActionLink("Płatności", "Index", "Payment")
             </p>
             <p>
-                @Html.ActionLink("Questionnaires", "Index", "Questionnaire")
+                @Html.ActionLink("Ankiety", "Index", "Questionnaire")
             </p>
             <p>
-                @Html.ActionLink("Lecturer's Resources", "Index", "Resources")
+                @Html.ActionLink("Materiały dydaktyczne", "Index", "Resources")
             </p>
              <p>
-                @Html.ActionLink("For Students", "Index", "Students")
+                @Html.ActionLink("Dla studentów", "Index", "Students")
             </p>
              <p>
-                @Html.ActionLink("Thesis", "Index", "Thesis")
+                @Html.ActionLink("Praca dyplomowa", "Index", "Thesis")
             </p>
             <p>
-                @Html.ActionLink("Manage Users", "Index", "Users")
+                @Html.ActionLink("Zarządzaj użytkownikami", "Index", "Users")
             </p>
 
         </div>
