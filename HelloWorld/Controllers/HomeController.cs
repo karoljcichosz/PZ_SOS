@@ -10,7 +10,7 @@ namespace HelloWorld.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Click one from the below links to jump to desired functionallity:";
+            ViewBag.Message = "Aby rozpocząć kliknij na jeden z poniższych linków:";
 
             return View();
         }
@@ -24,7 +24,7 @@ namespace HelloWorld.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Autorzy aplikacji";
+            ViewBag.Message = "Kontakt";
 
             return View();
         }
